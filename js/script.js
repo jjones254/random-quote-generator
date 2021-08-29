@@ -11,12 +11,31 @@ Project 4 - Random Quote Generator
  * `quotes` array 
 ***/
 const quotes = [
-  {},
-  {},
-  {},
-  {},
-  {}
+  {
+    quote: `"The people who are crazy enough to think they can change the world are the ones who do."`,
+    source: "Steve Jobs",
+    year: 2013
+  },
+  {
+    quote: `"Don't kill what you hate, save what you love."`,
+    source: "Elon Musk",
+    citation: "Twitter"
+  },
+  {
+    quote: `"Be the best, not the first."`,
+    source: "Tim Cook"
+  },
+  {
+    quote:`"I am not in competition with anyone but myself. My goal is to improve myself continuously."`,
+    source: "Bill Gates"
+  },
+  {
+    quote: `"The biggest risk is not taking any risk."`,
+    source: "Mark Zuckerberg"
+  }
 ];
+
+console.log(quotes);
 
 
 /***
