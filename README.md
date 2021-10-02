@@ -1,2 +1,2 @@
-# treehouse-project4
+# treehouse-techdegree-project-04
  Random Quote Generator
