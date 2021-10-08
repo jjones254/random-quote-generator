@@ -15,7 +15,7 @@
   * Add the following properties to each quote object:
     * `quote` - string - the actual quote
     * `source` - string - the person or character who said it
-  * Add a `citation` property to at least one quote object. The value should be a string holding a reference to the source of the quote, like the book, movie or song where the quote originates.
+  * Add a `citation` property to at least one quote object. The value should be a string holding a reference to the source of the quote, like the book, movie or song where the       quote originates.
   * Add a `year` property to at least one quote object. The value should be a string or number representing the year the quote originated.
 
 * [X] Create the `getRandomQuote` function
@@ -25,7 +25,7 @@
 
 * [X] Create the `printQuote` function
   * The app should display a new quote each time the user clicks the "Show another quote" button using a `printQuote` function.
-    * You will program the `printQuote` function to perform three tasks: call the `getRandomQuote` function, use the returned quote object to build a string of HTML and quote     properties, then use that string to display a random quote in the browser.
+    * You will program the `printQuote` function to perform three tasks: call the `getRandomQuote` function, use the returned quote object to build a string of HTML and quote         properties, then use that string to display a random quote in the browser.
     * In the body of the `printQuote` function, create a variable to store a random quote object from the `getRandomQuote()` function.
     * Create another variable to store the HTML string. Set it equal to a string containing two `<p>` elements. 
   
